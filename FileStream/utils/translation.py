@@ -7,7 +7,7 @@ class LANG(object):
 <b>👋 Hᴇʏ, </b>{}\n 
 <b>I'ᴍ ᴛᴇʟᴇɢʀᴀᴍ ғɪʟᴇs sᴛʀᴇᴀᴍɪɴɢ ʙᴏᴛ ᴀs ᴡᴇʟʟ ᴅɪʀᴇᴄᴛ ʟɪɴᴋs ɢᴇɴᴇʀᴀᴛᴏʀ</b>\n
 <b>ᴡᴏʀᴋɪɴɢ ᴏɴ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ</b>\n\n
-<b>✦ ᴀᴅᴅ ᴛᴏ ᴄʜᴀɴɴᴇʟ<a>https://t.me/{FileStream.username}?startchannel&admin=post_messages+edit_messages+delete_messages</a></b>\n"""
+<b>✦ ᴀᴅᴅ ᴛᴏ ᴄʜᴀɴɴᴇʟ<a>https://t.me/{}?startchannel&admin=post_messages+edit_messages+delete_messages</a></b>\n"""
 
     HELP_TEXT = """
 <b>- ᴀᴅᴅ ᴍᴇ ᴀs ᴀɴ ᴀᴅᴍɪɴ ᴏɴ ᴛʜᴇ ᴄʜᴀɴɴᴇʟ</b>
