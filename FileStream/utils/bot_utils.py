@@ -95,8 +95,8 @@ async def gen_link(_id):
         reply_markup = InlineKeyboardMarkup(
             [
                 [InlineKeyboardButton("sᴛʀᴇᴀᴍ", url=page_link), InlineKeyboardButton("ᴅᴏᴡɴʟᴏᴀᴅ", url=stream_link)],
-                [InlineKeyboardButton("ɢᴇᴛ ғɪʟᴇ", url=file_link), InlineKeyboardButton("ʀᴇᴠᴏᴋᴇ ғɪʟᴇ", callback_data=f"msgdelpvt_{_id}")],
-                [InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data="close"), InlineKeyboardButton("ꜱʜᴀʀᴇ",url=share_link)]
+                [InlineKeyboardButton("ɢᴇᴛ ғɪʟᴇ", url=file_link), InlineKeyboardButton("ꜱʜᴀʀᴇ",url=share_link)],
+                [InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data="close"), InlineKeyboardButton("ʀᴇᴠᴏᴋᴇ ғɪʟᴇ", callback_data=f"msgdelpvt_{_id}")]
             ]
         )
     else:
@@ -104,8 +104,8 @@ async def gen_link(_id):
         reply_markup = InlineKeyboardMarkup(
             [
                 [InlineKeyboardButton("ᴅᴏᴡɴʟᴏᴀᴅ", url=stream_link)],
-                [InlineKeyboardButton("ɢᴇᴛ ғɪʟᴇ", url=file_link), InlineKeyboardButton("ʀᴇᴠᴏᴋᴇ ғɪʟᴇ", callback_data=f"msgdelpvt_{_id}")],
-                [InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data="close"), InlineKeyboardButton("ꜱʜᴀʀᴇ",url=share_link)]
+                [InlineKeyboardButton("ɢᴇᴛ ғɪʟᴇ", url=file_link), InlineKeyboardButton("ꜱʜᴀʀᴇ",url=share_link)],
+                [InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data="close"), InlineKeyboardButton("ʀᴇᴠᴏᴋᴇ ғɪʟᴇ", callback_data=f"msgdelpvt_{_id}")]
             ]
         )
     return reply_markup, stream_text
