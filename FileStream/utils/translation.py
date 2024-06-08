@@ -28,15 +28,13 @@ class LANG(object):
 <b>📂 Fɪʟᴇ ɴᴀᴍᴇ :</b> <b>{}</b>\n
 <b>📦 Fɪʟᴇ ꜱɪᴢᴇ :</b> <code>{}</code>\n
 <b>📥 Dᴏᴡɴʟᴏᴀᴅ :</b> <code>{}</code>\n
-<b>🖥 Wᴀᴛᴄʜ :</b> <code>{}</code>\n
-<b>Fɪʟᴇ ɪᴅ :</b> <code>{}</code>"""
+<b>🖥 Wᴀᴛᴄʜ :</b> <code>{}</code>\n"""
 
     STREAM_TEXT_X = """
 <i><u>𝗬𝗼𝘂𝗿 𝗟𝗶𝗻𝗸 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗲𝗱 !</u></i>\n
 <b>📂 Fɪʟᴇ ɴᴀᴍᴇ :</b> <b>{}</b>\n
 <b>📦 Fɪʟᴇ ꜱɪᴢᴇ :</b> <code>{}</code>\n
-<b>📥 Dᴏᴡɴʟᴏᴀᴅ :</b> <code>{}</code>\n
-<b>Fɪʟᴇ ɪᴅ :</b> <code>{}</code>"""
+<b>📥 Dᴏᴡɴʟᴏᴀᴅ :</b> <code>{}</code>\n"""
 
 
     BAN_TEXT = "__Sᴏʀʀʏ Sɪʀ, Yᴏᴜ ᴀʀᴇ Bᴀɴɴᴇᴅ ᴛᴏ ᴜsᴇ ᴍᴇ.__\n\n**[Cᴏɴᴛᴀᴄᴛ Dᴇᴠᴇʟᴏᴘᴇʀ](tg://user?id={}) Tʜᴇʏ Wɪʟʟ Hᴇʟᴘ Yᴏᴜ**"
