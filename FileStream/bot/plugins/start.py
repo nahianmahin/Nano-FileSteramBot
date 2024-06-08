@@ -132,9 +132,9 @@ async def my_files(bot: Client, message: Message):
     if total_files > 10:
         file_list.append(
             [
-                InlineKeyboardButton("◄", callback_data="N/A"),
+                InlineKeyboardButton("⫷", callback_data="N/A"),
                 InlineKeyboardButton(f"1/{math.ceil(total_files / 10)}", callback_data="N/A"),
-                InlineKeyboardButton("►", callback_data="userfiles_2")
+                InlineKeyboardButton("⫸", callback_data="userfiles_2")
             ],
         )
     if not file_list:
